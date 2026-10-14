@@ -93,8 +93,11 @@ row. Column numbers for reference: `country`=1, `iso_code`=2, `year`=3,
 `population`=4, `gdp`=5, `co2`=6.
 
 ```bash
-# TODO: a command that prints the first 6 values from a single column
-# (repeat this for at least 5 of the 6 columns, swapping in each column's number)
+cut -d ',' -f1 co2_emissions_2022.csv | head -n 6
+cut -d ',' -f2 co2_emissions_2022.csv | head -n 6
+cut -d ',' -f3 co2_emissions_2022.csv | head -n 6
+cut -d ',' -f4 co2_emissions_2022.csv | head -n 6
+cut -d ',' -f5 co2_emissions_2022.csv | head -n 6
 ```
 
 Fill in the table from what you actually saw — not a guess from the column
@@ -102,18 +105,19 @@ name alone:
 
 | Column | Inferred type | How I can tell |
 |---|---|---|
-| _TODO_ | _TODO_ | _TODO_ |
-| _TODO_ | _TODO_ | _TODO_ |
-| _TODO_ | _TODO_ | _TODO_ |
-| _TODO_ | _TODO_ | _TODO_ |
-| _TODO_ | _TODO_ | _TODO_ |
+| country | str | The data is in form of text.
+| iso_code | str | The data is also in form of text. |
+| year | int | The data is written as a whole number. |
+| population | int | The data is also written as a whole number. |
+| gdp | int | The data is also written as a whole number. |
+| co2 | float | The data is written as a number with a decimal in it. | 
 
 **In your own words:** what's the actual difference between a list/array
 and a table? (Not a definition you looked up — explain it the way you'd
 explain it to a friend who's never coded. No command needed for this one,
 just think about the table you just filled in above.)
 
-_TODO_
+A table has different columns filled with data, whilst a list is typically just a line of data separated by commas.
 
 ## 4. Structured or unstructured?
 
