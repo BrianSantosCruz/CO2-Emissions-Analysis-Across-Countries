@@ -113,18 +113,13 @@ name alone:
 | gdp | int | The data is also written as a whole number. |
 | co2 | float | The data is written as a number with a decimal in it. | 
 
-**In your own words:** what's the actual difference between a list/array
-and a table? (Not a definition you looked up — explain it the way you'd
-explain it to a friend who's never coded. No command needed for this one,
-just think about the table you just filled in above.)
-
-A table has different columns filled with data, whilst a list is typically just a line of data separated by commas.
+**In your own words:** A table has different columns filled with data, whilst a list is typically just a line of data separated by commas.
 
 ## 4. Structured or unstructured?
 
 State whether this dataset is structured or unstructured, and why.
 
-_TODO_
+This dataset is structured because each data type has its respective columns and rows in a consistent way. For example, there are not multiple data types in any column.
 
 ## 5. Before you trust this data
 
@@ -136,19 +131,17 @@ You may need more than one command for this — piping (`|`) feeds one
 command's output into the next as input.
 
 ```bash
-# TODO: a command (or combination) that counts how many rows have a
-# BLANK iso_code
+cut -d ',' -f2 co2_emissions_2022.csv | grep -c '^$'
 ```
 
-**Output:**
-_TODO_
+**Output:** 36
 
 ```bash
-# TODO: the same idea, but for the gdp column
+cut -d ',' -f5 co2_emissions_2022.csv | grep -c '^$'
 ```
 
 **Output:**
-_TODO_
+89
 
 List **at least 2** specific things you'd want to know about how this
 dataset was collected, before trusting any conclusion drawn from it — ground
