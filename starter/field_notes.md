@@ -98,6 +98,7 @@ cut -d ',' -f2 co2_emissions_2022.csv | head -n 6
 cut -d ',' -f3 co2_emissions_2022.csv | head -n 6
 cut -d ',' -f4 co2_emissions_2022.csv | head -n 6
 cut -d ',' -f5 co2_emissions_2022.csv | head -n 6
+cut -d ',' -f6 co2_emissions_2022.csv | head -n 6
 ```
 
 Fill in the table from what you actually saw — not a guess from the column
