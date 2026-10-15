@@ -158,7 +158,7 @@ phrase it as a real question you'd send to the data's source/maintainer. A
 good test: could they actually answer it with a concrete yes/no or fact —
 not "is this data good?"
 
-_TODO_
+Is there a way to check if every missing data value was left blank? If you can, were those data values also accounted for when checking the number of missing data values in a column?
 
 ## 7. Something you're actually curious about
 
@@ -168,14 +168,15 @@ curious to explore using this data? Pick two specific countries you're
 curious to compare, and look up their full rows.
 
 ```bash
-# TODO: a command that finds a specific country's row by name (repeat for
-# a second country of your choice)
+grep -n "Albania" co2_emissions_2022.csv
+grep -n "United States" co2_emissions_2022.csv 
 ```
 
 **Output:**
-_TODO_
+5:Albania,ALB,2022,2827614,36171005594,4.498
+243:United States,USA,2022,341534041,19493170182843,5055.403
 
-**My question:** _TODO_
+**My question:** Why are all of the data values in the row of the United States so inflated in comparison to those of Albania?  What does this say about the United States? 
 
 ## 8. AI-literacy reflection
 
