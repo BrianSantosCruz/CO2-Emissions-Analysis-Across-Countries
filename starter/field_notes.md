@@ -148,8 +148,8 @@ dataset was collected, before trusting any conclusion drawn from it — ground
 at least one in the counts you just found.
 
 **My 2 concerns:**
-1. _TODO_
-2. _TODO_
+1. Was every missing data value left blank? If not, were these data values also accounted for when checking the amount of missing data values in a column?
+2. How much importance does the iso_code have? Why were some countries without this data value?
 
 ## 6. Data-quality question for the source
 
