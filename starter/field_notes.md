@@ -201,10 +201,11 @@ this at least once. Paste the actual command and what actually happened
 fix — not "I googled it and it worked."
 
 ```bash
-# TODO: a command that errored, or gave you unexpected results
+awk -F ',' 'NR==1 || $1 == "country" co2_emissions_2022.csv
 ```
 
 **What happened:**
-_TODO: the actual error message, or the unexpected output you got_
+awk: cmd. line:1: NR==1 | $1 == "country"
+awk: cmd. line:1:         ^ syntax error
 
-**What it told me and how I fixed it:** _TODO_
+**What it told me and how I fixed it:** This error message told me that something was wrong with my command, specifically that something was wrong with the $1 I was using. I was unsure of how to go from there with this command, so I looked back to other commands that could do the same thing I was attempting to do, and using the command cut -d ',' -f1 co2_emissions_2022.csv | head -n 6 printed the first 6 rows of the country column as intended.
