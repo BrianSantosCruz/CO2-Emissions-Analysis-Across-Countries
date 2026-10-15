@@ -187,10 +187,10 @@ fact before relying on it professionally — specific enough that you could
 actually follow it, not "I'll be careful."
 
 **Risks:**
-1. _TODO_
-2. _TODO_
+1. The AI assistant could hallucinate and provide a data value for one that is missing on the actual dataset.
+2. The AI assistant could understand some values differently and give broad answers to questions that require specific answers.
 
-**My rule:** _TODO_
+**My rule:** I will make sure to click on the links provided by an AI assistant when it answers a question to make sure that the information provided is verified, correct, and not dated.
 
 ## 9. Something that went wrong (and how you figured it out)
 
