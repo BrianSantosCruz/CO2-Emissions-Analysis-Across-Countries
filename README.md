@@ -1,7 +1,7 @@
-# Introduction
-Welcome, non-profit organization! This file is one that is made to help provide advice that is backed by data on what countries could use your community-protection and climate-support efforts. 
+# CO2 Emissions Analysis Across Countries
+Welcome, stakeholders of the non-profit organization. This file is one that is made to help provide advice that is backed by data on what countries could use your community-protection and climate-support efforts. 
 
-# Analysis
+# Analysis of the Dataset
 **What does each column actually hold, and what data type is it?**
 
 The dataset holds 6 distinct columns. Columns 1-2 are **country** and **iso_code**. The **country** column provides the name of the country, and the **iso_code** provides the respective iso code. Both are strings because the data values are in text form. Columns 3-5 are **year** (provides year data was collected), **population** (amount of people in the country), and **gdp** (the gdp of the country). All 3 of these are integers because the data values are written as whole numbers. Column 6 is for **co2** (the amount of co2 in the country), which is a float because the data values for it have numbers with decimals.
@@ -20,7 +20,7 @@ Are all of the data values that are missing left blank, or is there an inconsist
 
 **What's something about energy and emissions you're personally curious to explore in this data?**
 
-Is there a relationship between a country's **gdp** and the **co2** value it has? If there is a pattern of countries that have a higher **gdp** also have a lower **co2** number, is this sufficient enough for us to base a simple foundation as to where we should prioritize providing support?
+Is there a relationship between a country's **gdp** and the **co2** value it has? If there is a pattern of countries that have a higher **gdp** also have a lower **co2** number, is this sufficient enough for us to base a simple foundation as to where we should prioritize providing support? For example, the United States had a much higher **gdp** than Albania and a much lower **co2** number than Albania. Is this a consistent pattern?
 
 # Sources & License
 **Github Repository**
