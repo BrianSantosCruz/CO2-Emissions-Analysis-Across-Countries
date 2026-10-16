@@ -21,3 +21,20 @@ Are all of the data values that are missing left blank, or is there an inconsist
 **What's something about energy and emissions you're personally curious to explore in this data?**
 
 Is there a relationship between a country's **gdp** and the **co2** value it has? If there is a pattern of countries that have a higher **gdp** also have a lower **co2** number, is this sufficient enough for us to base a simple foundation as to where we should prioritize providing support?
+
+# Sources & License
+**Github Repository**
+
+Pablo Rosado, Data on CO2 and Greenhouse Gas Emissions by *Our World in Data*, GitHub (2026)
+
+**Co2 Source**
+
+Hannah Ritchie, Pablo Rosado, and Max Roser (2023) - “CO₂ and Greenhouse Gas Emissions” Published online at OurWorldinData.org. Retrieved from: 'https://ourworldindata.org/co2-and-greenhouse-gas-emissions' [Online Resource]
+
+**Population Source**
+
+Edouard Mathieu and Lucas Rodés-Guirao (2022) - “What are the sources for Our World in Data's population estimates?” Published online at OurWorldinData.org. Retrieved from: 'https://archive.ourworldindata.org/20260910-004756/population-sources.html' [Online Resource] (archived on September 10, 2026).
+
+**License**
+
+https://creativecommons.org/licenses/by/4.0/
