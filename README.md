@@ -1,5 +1,5 @@
 # Introduction
-Welcome, non-profit organization! This file is one made to help provide advice that is backed by data on what countries could use your community-protection and climate-support efforts. 
+Welcome, non-profit organization! This file is one that is made to help provide advice that is backed by data on what countries could use your community-protection and climate-support efforts. 
 
 # Analysis
 **What does each column actually hold, and what data type is it?**
